@@ -12,6 +12,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { PagesComponent } from './pages.component';
     NoPageFoundComponent,
     ProgressComponent,
     Grafica1Component,
+    AccountSettingsComponent,
   ],
 
   imports: [
@@ -35,6 +37,7 @@ import { PagesComponent } from './pages.component';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
+    AccountSettingsComponent,
     FormsModule,
   ]
 })

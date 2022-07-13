@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SidenavService } from 'src/app/services/sidenav.service';
 
 @Component({
   selector: 'app-sidenav',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidenavComponent implements OnInit {
 
-  constructor() { }
+  public menuItem:any[];
+
+  constructor( private sienavSrv:SidenavService ) { 
+    this.menuItem = this.sienavSrv.menu;
+  }
 
   ngOnInit(): void {
   }
