@@ -12,7 +12,9 @@ export class SidenavService {
       submenu: [
         { title: 'Main', url: '/' },
         { title: 'Progress Bar', url: 'progress' },
-        { title: 'Graphs', url: 'grafica1' }
+        { title: 'Graphs', url: 'grafica1' },
+        { title: 'Promises', url: 'promises' },
+        { title: 'Rxjs', url: 'rxjs' },
       ]
     }
   ]
