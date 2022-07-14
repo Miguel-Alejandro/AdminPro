@@ -13,6 +13,8 @@ import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgressComponent,
     Grafica1Component,
     AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent,
   ],
 
   imports: [
